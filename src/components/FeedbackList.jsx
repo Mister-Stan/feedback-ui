@@ -1,17 +1,21 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import FeedbackItem from './FeedbackItem'
+import React from "react"
+import PropTypes from "prop-types"
+import FeedbackItem from "./FeedbackItem"
 
-function FeedbackList({ feedback }) {
-  if(!feedback || feedback.length === 0) {
+function FeedbackList({ feedback, handleDelete }) {
+  if (!feedback || feedback.length === 0) {
     return <p>No feedback available</p>
   }
 
   return (
-    <div className='feedback-list'>
-        {feedback.map((item) => (
-            <FeedbackItem key={item.id} item={item} />
-        ))}
+    <div className="feedback-list">
+      {feedback.map((item) => (
+        <FeedbackItem
+          key={item.id}
+          item={item}
+          handleDelete={handleDelete}
+        />
+      ))}
     </div>
   )
 }
@@ -19,7 +23,5 @@ function FeedbackList({ feedback }) {
 FeedbackList.propTypes = {
   feedback: PropTypes.array.isRequired,
 }
-
-
 
 export default FeedbackList
