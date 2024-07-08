@@ -1,54 +1,24 @@
 {
   "feedback": [
     {
-      "id": "1",
-      "rating": "10",
-      "text": "This is feedback item 1 coming from the server"
-    },
-    {
-      "id": "2",
-      "rating": "8",
-      "text": "This is feeback item 2 coming from the server"
-    },
-    {
-      "id": "3",
-      "rating": "7",
-      "text": "This is feedback item 3 coming from the server"
-    },
-    {
-      "id": "5099",
-      "text": "this is a new test",
+      "id": "e464",
+      "text": "This is the first feedback fro item number 1",
       "rating": 1
     },
     {
-      "id": "69d4",
-      "text": "this is the last test",
+      "id": "d438",
+      "text": "this is the second feedback fro item number 2",
       "rating": 1
     },
     {
-      "id": "1f1f",
-      "text": "ghdfgfdsgfgds",
-      "rating": 5
-    },
-    {
-      "id": "7430",
-      "text": "this adsadasda ",
-      "rating": 10
-    },
-    {
-      "id": "1f71",
-      "text": "this isa dsadsadsa",
-      "rating": 10
-    },
-    {
-      "id": "348a",
-      "text": "fgdsfdsfsgdfsgfddfgs",
+      "id": "cff7",
+      "text": "this is the third feedback for item number 3",
       "rating": 1
     },
     {
-      "id": "d6a7",
-      "text": "fdsfdsfdsafdsadfg",
-      "rating": 10
+      "text": "this is an updated item",
+      "rating": 8,
+      "id": "93e5"
     }
   ]
 }
